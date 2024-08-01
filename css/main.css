@@ -44,3 +44,18 @@ a{text-decoration: none; color: inherit;}
 /* .slide01{background: url(../images/slideimg.jpg) no-repeat ;}
 .slide02{background: url(../images/slideimg02.jpg) no-repeat ;}
 .slide03{background: url(../images/slideimg03.jpg) no-repeat ;} */
+
+
+.main_list{margin: 0 auto; }
+
+.main_list1{  display: flex; width: 70%; justify-content: space-between;margin: 0 auto;}
+
+
+.main_list_sub{border: 1px solid rgb(255, 255, 255); border-radius: 30px ;height: 400px; box-shadow: 0px 1px 2px black;}
+.main_list_sub a{}
+.main_list_sub a div{}
+
+.list_img{ }
+.list_img img{border-radius: 30px ;text-align: center;}
+.list_img h4{text-align: center;margin-top: 10px;}
+.list_img span{}
