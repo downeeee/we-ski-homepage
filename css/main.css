@@ -10,7 +10,8 @@ a{text-decoration: none; color: inherit;}
 .head_inner{}
 
 .log{position: absolute; right: 400px; top: 0;;width: 300px;
-        height: 30px;}
+        height: 30px; }
+.input{width: 50px;}
 
 .log ul{}
 .log ul li{display: inline-block; margin: 10px 10px;}
@@ -27,6 +28,7 @@ a{text-decoration: none; color: inherit;}
 .main_menu >li >a{font-size: 18px; font-weight: bold;width: 200px; height: 50px; text-align: center;
     line-height: 50px; transition: all 0.5s; display: block;}
 .main_menu >li >a:hover{text-shadow: 0px 0px 2px rgb(49, 22, 0);}
+
 
 
 .sub{position: absolute; top: 50px; left: 0; width: 200px;/*  border: 1px solid black; */display: none;z-index: 100;}
@@ -47,7 +49,7 @@ a{text-decoration: none; color: inherit;}
 
 .popular{display: block; width: 200px; height: 50px;margin: 0 auto; font-size: 40px; margin-top: 30px;
         font-weight: bold; text-align: center;}
-.main_list{margin: 0 auto; }
+.main_list{margin: 40px auto; }
 
 .main_list1{  display: flex; width: 70%; justify-content: space-between;margin: 0 auto;}
 
@@ -63,5 +65,19 @@ a{text-decoration: none; color: inherit;}
 .list_img h5{text-align: center; margin-top: 20px; font-size: 17px; color: rgb(152, 0, 0);}
 
 
+
 .event{display: block; width: 200px; height: 100px;margin: 0 auto; font-size: 40px; margin-top: 50px;  text-align: center;
     font-weight: bold;line-height: 100px; }
+
+.section{position: relative;}
+
+
+.fix{position: fixed; right: 100px; top: 700px; /* width: 70px; height: 70px; */
+        transition: all 0.7s;}
+
+.fix div{margin-bottom: 10px;}
+
+.box2:hover{scale: 1.2;}
+.box1:hover{scale: 1.2;}
+.box3:hover{scale: 1.2;}
+.box4:hover{scale: 1.2;}
